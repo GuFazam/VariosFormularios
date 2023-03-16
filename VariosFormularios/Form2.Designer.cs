@@ -1,6 +1,6 @@
 ﻿namespace VariosFormularios
 {
-    partial class Form2
+    partial class FormSegundo
     {
         /// <summary>
         /// Required designer variable.
@@ -39,14 +39,15 @@
             this.textBoxMultiTexto.Size = new System.Drawing.Size(776, 341);
             this.textBoxMultiTexto.TabIndex = 0;
             // 
-            // Form2
+            // FormSegundo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.textBoxMultiTexto);
-            this.Name = "Form2";
+            this.Name = "FormSegundo";
             this.Text = "Segundo Formulário Exemplo";
+            this.Load += new System.EventHandler(this.FormSegundo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

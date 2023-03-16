@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace VariosFormularios
 {
-    public partial class Form2 : Form
+    public partial class FormSegundo : Form
     {
-        public Form2()
+        public FormSegundo(String v) // ve de variável
         {
             InitializeComponent();
+            textBoxMultiTexto.Text = v;
+        }
+
+        private void FormSegundo_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
